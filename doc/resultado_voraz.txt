@@ -1,0 +1,63 @@
+Iteración 1:
+- Mejor estación seleccionada: kone
+- Estados cubiertos en esta iteración [3]: {'UT', 'ID', 'NV'}
+- Total de estados cubiertos hasta ahora [3]: {'UT', 'ID', 'NV'}
+- Estaciones restantes [12]: ['ktwo', 'kthree', 'kfour', 'kfive', 'ksix', 'kseven', 'keight', 'knine', 'kten', 'keleven', 'ktwelve', 'kthirteen']
+
+Iteración 2:
+- Mejor estación seleccionada: ksix
+- Estados cubiertos en esta iteración [3]: {'OK', 'NM', 'TX'}
+- Total de estados cubiertos hasta ahora [6]: {'UT', 'ID', 'OK', 'NV', 'NM', 'TX'}
+- Estaciones restantes [11]: ['ktwo', 'kthree', 'kfour', 'kfive', 'kseven', 'keight', 'knine', 'kten', 'keleven', 'ktwelve', 'kthirteen']
+
+Iteración 3:
+- Mejor estación seleccionada: keight
+- Estados cubiertos en esta iteración [3]: {'CO', 'NE', 'KS'}
+- Total de estados cubiertos hasta ahora [9]: {'ID', 'NV', 'TX', 'CO', 'KS', 'UT', 'OK', 'NM', 'NE'}
+- Estaciones restantes [10]: ['ktwo', 'kthree', 'kfour', 'kfive', 'kseven', 'knine', 'kten', 'keleven', 'ktwelve', 'kthirteen']
+
+Iteración 4:
+- Mejor estación seleccionada: keleven
+- Estados cubiertos en esta iteración [3]: {'MN', 'MO', 'AR'}
+- Total de estados cubiertos hasta ahora [12]: {'ID', 'NV', 'TX', 'CO', 'MN', 'KS', 'UT', 'OK', 'NM', 'AR', 'NE', 'MO'}
+- Estaciones restantes [9]: ['ktwo', 'kthree', 'kfour', 'kfive', 'kseven', 'knine', 'kten', 'ktwelve', 'kthirteen']
+
+Iteración 5:
+- Mejor estación seleccionada: ktwo
+- Estados cubiertos en esta iteración [2]: {'WA', 'MT'}
+- Total de estados cubiertos hasta ahora [14]: {'ID', 'NV', 'TX', 'WA', 'CO', 'MN', 'KS', 'MT', 'UT', 'OK', 'NM', 'AR', 'NE', 'MO'}
+- Estaciones restantes [8]: ['kthree', 'kfour', 'kfive', 'kseven', 'knine', 'kten', 'ktwelve', 'kthirteen']
+
+Iteración 6:
+- Mejor estación seleccionada: kthree
+- Estados cubiertos en esta iteración [2]: {'OR', 'CA'}
+- Total de estados cubiertos hasta ahora [16]: {'ID', 'NV', 'TX', 'WA', 'CO', 'MN', 'OR', 'KS', 'MT', 'UT', 'OK', 'NM', 'AR', 'NE', 'MO', 'CA'}
+- Estaciones restantes [7]: ['kfour', 'kfive', 'kseven', 'knine', 'kten', 'ktwelve', 'kthirteen']
+
+Iteración 7:
+- Mejor estación seleccionada: knine
+- Estados cubiertos en esta iteración [2]: {'SD', 'WY'}
+- Total de estados cubiertos hasta ahora [18]: {'TX', 'WA', 'CO', 'MN', 'KS', 'UT', 'OK', 'AR', 'NE', 'MO', 'CA', 'ID', 'NV', 'WY', 'SD', 'OR', 'MT', 'NM'}
+- Estaciones restantes [6]: ['kfour', 'kfive', 'kseven', 'kten', 'ktwelve', 'kthirteen']
+
+Iteración 8:
+- Mejor estación seleccionada: kten
+- Estados cubiertos en esta iteración [2]: {'IA', 'ND'}
+- Total de estados cubiertos hasta ahora [20]: {'TX', 'WA', 'CO', 'MN', 'KS', 'UT', 'OK', 'AR', 'NE', 'MO', 'CA', 'ND', 'ID', 'NV', 'WY', 'SD', 'OR', 'MT', 'NM', 'IA'}
+- Estaciones restantes [5]: ['kfour', 'kfive', 'kseven', 'ktwelve', 'kthirteen']
+
+Iteración 9:
+- Mejor estación seleccionada: kfive
+- Estados cubiertos en esta iteración [1]: {'AZ'}
+- Total de estados cubiertos hasta ahora [21]: {'TX', 'WA', 'CO', 'MN', 'KS', 'UT', 'OK', 'AR', 'AZ', 'NE', 'MO', 'CA', 'ND', 'ID', 'NV', 'WY', 'SD', 'OR', 'MT', 'NM', 'IA'}
+- Estaciones restantes [4]: ['kfour', 'kseven', 'ktwelve', 'kthirteen']
+
+Iteración 10:
+- Mejor estación seleccionada: ktwelve
+- Estados cubiertos en esta iteración [1]: {'LA'}
+- Total de estados cubiertos hasta ahora [22]: {'TX', 'WA', 'CO', 'MN', 'KS', 'UT', 'OK', 'AR', 'AZ', 'NE', 'MO', 'CA', 'ND', 'ID', 'NV', 'WY', 'SD', 'LA', 'OR', 'MT', 'NM', 'IA'}
+- Estaciones restantes [3]: ['kfour', 'kseven', 'kthirteen']
+
+Solución:
+** Estaciones seleccionadas [10]: ['kone', 'ksix', 'keight', 'keleven', 'ktwo', 'kthree', 'knine', 'kten', 'kfive', 'ktwelve'] **
+** Total de estados cubiertos [22]: {'TX', 'WA', 'CO', 'MN', 'KS', 'UT', 'OK', 'AR', 'AZ', 'NE', 'MO', 'CA', 'ND', 'ID', 'NV', 'WY', 'SD', 'LA', 'OR', 'MT', 'NM', 'IA'} **
