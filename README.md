@@ -25,7 +25,7 @@ Ambos enfoques se comparan para evaluar su rendimiento y eficiencia. 📊
 Para obtener este repositorio desde **GitHub**, usa el siguiente comando en la terminal:
 
 ```bash
-cd Algoritmos_Optimizacion
+git clone https://github.com/MiBasDev/Algoritmos-de-Optimizacion.git
 ```
 
 Ahora, navega dentro de la carpeta del proyecto:
