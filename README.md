@@ -15,7 +15,7 @@ Ambos enfoques se comparan para evaluar su rendimiento y eficiencia.
    - [Algoritmo Voraz](#ejecutar-algoritmo-voraz)
    - [Algoritmo Ascensión de Colinas](#ejecutar-algoritmo-ascensión-de-colinas)
 3. [Estaciones y Estados](#conjunto-de-estaciones-y-estados-del-algoritmo)
-4. [Explicación de los Algoritmoos](#explicación-de-los-algoritmos)
+4. [Explicación de los Algoritmos](#explicación-de-los-algoritmos)
    - [Qué hace el programa](#qué-hace-el-programa)
    - [Algoritmo Voraz](#algoritmo-voraz-greedy)
    - [Algoritmo Ascensión de Colinas](#algoritmo-ascensión-de-colinas-hill-climbing)
@@ -54,15 +54,6 @@ python hill_climbing_algorithm.py
 
 ---
 
-## Explicación de los Algoritmos
-### Qué hace el programa
-Este programa **selecciona estaciones** de una lista predefinida para cubrir la mayor cantidad de estados posibles. Se utilizan dos enfoques:
-
-1. **Enfoque Voraz (Greedy):** Siempre elige la estación que cubre más estados no cubiertos.
-2. **Enfoque Ascensión de Colinas (Hill Climbing):** busca encontrar la mejor combinación de estaciones para cubrir el mayor número posible de estados.
-
----
-
 ### Conjunto de Estaciones y Estados del algoritmo
 
 La siguiente tabla muestra qué **estados** cubre cada **estación**.
@@ -82,6 +73,15 @@ La siguiente tabla muestra qué **estados** cubre cada **estación**.
 | keleven   | MN, MO, AR                 |
 | ktwelve   | LA                         |
 | kthirteen | MO, AR                     |
+
+---
+
+## Explicación de los Algoritmos
+### Qué hace el programa
+Este programa **selecciona estaciones** de una lista predefinida para cubrir la mayor cantidad de estados posibles. Se utilizan dos enfoques:
+
+1. **Enfoque Voraz (Greedy):** Siempre elige la estación que cubre más estados no cubiertos.
+2. **Enfoque Ascensión de Colinas (Hill Climbing):** busca encontrar la mejor combinación de estaciones para cubrir el mayor número posible de estados.
 
 ---
 
