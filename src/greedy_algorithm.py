@@ -56,7 +56,7 @@ def best_combination():
     remaining_stations = stations.copy()  
     
     count = 1
-    with open("doc/resultado_voraz.txt", "w", encoding="utf-8") as file:
+    with open("doc/resultado_greedy.txt", "w", encoding="utf-8") as file:
         while remaining_stations:
             # Encontramos la estación que cubra la mayor cantidad de estados aún no cubiertos
             best_station = max_station(remaining_stations, covered_states)

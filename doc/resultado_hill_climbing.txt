@@ -1,0 +1,16 @@
+Búsqueda de la mejor combinación de estaciones (Ascensión de colinas)
+
+Iteración 4: Mejor combinación encontrada: ['kfour', 'keleven', 'kten', 'ksix', 'keight', 'kone', 'knine', 'kthree', 'kseven', 'ktwo']
+Total de estados cubiertos: 20
+
+Iteración 7: Mejor combinación encontrada: ['kfive', 'kten', 'ksix', 'ktwo', 'kfour', 'ktwelve', 'knine', 'keleven', 'keight', 'kone']
+Total de estados cubiertos: 21
+
+Iteración 16: Mejor combinación encontrada: ['ktwo', 'kseven', 'keleven', 'ksix', 'kfive', 'kone', 'kthree', 'ktwelve', 'kten', 'knine']
+Total de estados cubiertos: 22
+
+
+Solución óptima encontrada:
+Estaciones seleccionadas: ['ktwo', 'kseven', 'keleven', 'ksix', 'kfive', 'kone', 'kthree', 'ktwelve', 'kten', 'knine']
+Total de estados cubiertos: 22
+Estados no cubiertos: 0
