@@ -31,7 +31,7 @@ git clone https://github.com/MiBasDev/Algoritmos-de-Optimizacion.git
 Ahora, navega dentro de la carpeta del proyecto:
 
 ```bash
-cd Algoritmos_Optimizacion
+cd Algoritmos-de-Optimizacion
 ```
 
 ---
